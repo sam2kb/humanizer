@@ -2,6 +2,14 @@
 
 ## 3.1.0
 
+### Local revision 2026-10-29.1
+
+- Based on upstream commit `0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0`, including the current plugin manifest fix.
+- Preserved local new-copy drafting instructions and invocation examples; moved the argument hint into portable metadata.
+- Added a final check for bureaucratic wording introduced by the rewrite and a workplace role-list example under pattern 19. No new patterns or word bans.
+
+### Upstream release
+
 - Added pattern #26 and section F for replies that re-explain context the reader already has (#269). It acts on replies, not standalone writing. 26 patterns total.
 - Extended the core rule so "something the reader did not already have" counts the surrounding conversation, not only earlier text.
 - Widened #25 to text that describes its own sourcing, assembly, or layout (#290), and added headings written for effect to #20.
