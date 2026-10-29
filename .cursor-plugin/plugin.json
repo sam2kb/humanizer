@@ -5,8 +5,14 @@
   "author": {
     "name": "blader"
   },
-  "homepage": "https://github.com/blader/humanizer",
-  "repository": "https://github.com/blader/humanizer",
+  "homepage": "https://github.com/sam2kb/humanizer",
+  "repository": "https://github.com/sam2kb/humanizer",
   "license": "MIT",
-  "keywords": ["writing", "editing", "humanize", "prose", "style"]
+  "keywords": [
+    "writing",
+    "editing",
+    "humanize",
+    "prose",
+    "style"
+  ]
 }

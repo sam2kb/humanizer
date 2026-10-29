@@ -31,21 +31,23 @@ Humanizer checks for [26 patterns](#the-26-patterns) in all.
 
 ## Installation
 
+This private distribution is maintained at [sam2kb/humanizer](https://github.com/sam2kb/humanizer), with history preserved from [upstream](https://github.com/blader/humanizer). For commit-pinned installs, backups, and verification across environments, see [local changes](LOCAL_CHANGES.md#install-and-verify).
+
 Once installed, the skill answers to `/humanizer`.
 
 ### Claude Code
 
 ```text
-/plugin marketplace add blader/humanizer
+/plugin marketplace add sam2kb/humanizer
 /plugin install humanizer@humanizer
 ```
 
-The plugin answers to `/humanizer:humanizer`. It needs Claude Code 2.1.142 or newer; on older versions, use `npx skills add blader/humanizer --global --agent claude-code`.
+The plugin answers to `/humanizer:humanizer`. It needs Claude Code 2.1.142 or newer; on older versions, use `npx skills add sam2kb/humanizer --global --agent claude-code`.
 
 ### Codex
 
 ```bash
-npx skills add blader/humanizer --global --agent codex
+npx skills add sam2kb/humanizer --global --agent codex
 ```
 
 ### Claude.ai and Claude Desktop
@@ -55,7 +57,7 @@ Download this repository as a ZIP (**Code → Download ZIP**) and upload it as a
 ### Other agents
 
 ```bash
-npx skills add blader/humanizer --global --agent '*'
+npx skills add sam2kb/humanizer --global --agent '*'
 ```
 
 This installs Humanizer for every agent the Skills CLI supports, including Gemini CLI, GitHub Copilot, and Windsurf. Leave off `--global` in any command above to install it only in the current project. For an agent the Skills CLI does not know, copy `SKILL.md` into its skill folder.

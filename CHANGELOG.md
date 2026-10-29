@@ -7,6 +7,7 @@
 - Based on upstream commit `0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0`, including the current plugin manifest fix.
 - Preserved local new-copy drafting instructions and invocation examples; moved the argument hint into portable metadata.
 - Added a final check for bureaucratic wording introduced by the rewrite and a workplace role-list example under pattern 19. No new patterns or word bans.
+- Added a commit-pinned installer with verified backups, drift checks, and rollback; pointed install metadata at the private maintained repository.
 
 ### Upstream release
 
